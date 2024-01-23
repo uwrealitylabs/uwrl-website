@@ -11,12 +11,9 @@
     import {DarkMode} from "$lib/States";
 </script>
 
-<NavBar></NavBar>
 
-<div class="bg-red-400 h-10 w-full p-2 font-bold"
-     class:dark={DarkMode}
->
-    test test test
+<div class:dark={$DarkMode}>
+    <NavBar></NavBar>
+
+    <slot></slot>
 </div>
-
-<slot></slot>
