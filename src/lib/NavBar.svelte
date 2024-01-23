@@ -11,13 +11,13 @@
                 uwrl
             </a>
         <div class="items-center">
-            <a href="/" class="px-3 py-2 bg-gray-900 font-bold text-gray-100 rounded-md">
+            <a href="/projects" class="px-3 py-2 bg-gray-900 font-bold text-gray-100 rounded-md">
                 Projects
             </a>
-            <a href="/blog" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
+            <a href="/about" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
                 About
             </a>
-            <a href="/" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
+            <a href="/contact" class="px-3 py-2 bg-gray-800 hover:bg-gray-700 font-bold text-gray-100 rounded-md">
                 Contact
             </a>
         </div>
