@@ -14,6 +14,8 @@
 
 <div class:dark={$DarkMode}>
     <NavBar></NavBar>
-
+<div class="bg-repeat" style="background-image: url(/sketchTile.svg);">
     <slot></slot>
+</div>
+
 </div>
