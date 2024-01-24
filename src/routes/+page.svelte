@@ -3,11 +3,12 @@
         VR/AR/XR · Spatial Computing
     </div>
     <div class="ml-2">
-        <h1 class="font-light text-5xl">
+        <h1 class="font-normal text-5xl">
             <span >The University of Waterloo's </span>
-            <br class="framer-text">
-            <span >XR &amp; spatial computing</span>
-            <br class="framer-text">design team.
+            <br >
+            <span class="text-gray-500">XR &amp; spatial computing</span>
+            <br >
+            <span class="text-gray-500">design team.</span>
         </h1>
     </div>
     <div >
