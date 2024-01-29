@@ -3,8 +3,8 @@
 
 </script>
 
-<div class="flex flex-col group relative ">
-    <div class="aspect-h-9 aspect-w-16 relative ">
+<div class="flex flex-col group relative space pb-5">
+    <div class="aspect-h-8 aspect-w-16 relative ">
 
         <img src="{ img }" alt="" class="w-full object-cover rounded-3xl group-hover:scale-[0.99]">
         <div class="transition rounded-full w-16 h-6 absolute left-8 bottom-10 top-auto bg-gray-300 justify-center items-center flex p-5 -rotate-45 group-hover:rotate-0 group-hover:h-16 group-hover:-translate-y-2">
@@ -14,7 +14,7 @@
 
         </div>
     </div>
-    <div>
+    <div class="pt-5">
         <div class="text-2xl font-normal">
             { title }
         </div>

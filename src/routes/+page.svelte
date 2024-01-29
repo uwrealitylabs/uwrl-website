@@ -33,8 +33,10 @@
         </div>
     </div>
 
-    <div>
+    <div class="flex flex-col space-y-2">
+        <ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" desc="The modular, open-source VR headset for research and experimentation." />
+        <ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" desc="A fully self-contained AR device based on Ultraleap's Project North Star." />
         <ProjectCard class="" img="/NorthStarHeadset.jpg" title="sus" desc="amogus" />
-
+        <ProjectCard class="" img="/NorthStarHeadset.jpg" title="sus" desc="amogus" />
     </div>
 </div>
