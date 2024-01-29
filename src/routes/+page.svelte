@@ -4,12 +4,12 @@
 
 <div class="m-8 flex flex-col ">
 
-    <div class="flex flex-col space-y-20 pb-10">
-        <div class="text-sm ">
+    <div class="flex flex-col space-y-20 pb-20">
+        <div class="text-sm lg:text-lg">
             VR/AR/XR · Spatial Computing
         </div>
         <div class="ml-2">
-            <h1 class="font-normal text-5xl">
+            <h1 class="font-normal text-5xl lg:text-7xl">
                 <span >The University of Waterloo's </span>
                 <br >
                 <span class="text-gray-500">XR &amp; spatial computing</span>
