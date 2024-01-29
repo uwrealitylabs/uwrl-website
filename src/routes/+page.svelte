@@ -37,7 +37,18 @@
         <ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" desc="The modular, open-source VR headset for research and experimentation." />
         <ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" desc="A fully self-contained AR device based on Ultraleap's Project North Star." />
         <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" desc="Generating training data for ML-based real-time defocus blur." />
-        <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" desc="Pupil tracking based on EyeTrackVR with ML & computer vision.
-" />
+        <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" desc="Pupil tracking based on EyeTrackVR with ML & computer vision." />
+    </div>
+    <div class="flex flex-row">
+        <div>
+            about
+        </div>
+        <div class="flex flex-col">
+            <div class="">
+                <span class="">Researching, experimenting, and building.</span>
+                <span>We create real-life interfaces for the virtual world.</span>
+            </div>
+            
+        </div>
     </div>
 </div>
