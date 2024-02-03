@@ -4,7 +4,7 @@
 </script>
 
 
-<a href="{ url }" class="w-auto rounded-full bg-white px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-gray-400 ring-0">
+<a href="{ url }" class="w-auto rounded-full bg-gray-200 px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-gray-400 ring-0">
 	<div class="text-black">
 		{ text }
 	</div>

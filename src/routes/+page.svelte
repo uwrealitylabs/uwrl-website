@@ -1,5 +1,6 @@
 <script>
     import ProjectCard from "$lib/ProjectCard.svelte";
+    import LightButton from '$lib/LightButton.svelte';
 </script>
 
 <div class="m-8 flex flex-col ">
@@ -47,6 +48,9 @@
             <div class="">
                 <span class="font-normal text-5xl">Researching, experimenting, and building.</span>
                 <span class="font-normal text-5xl text-gray-500">We create real-life interfaces for the virtual world.</span>
+            </div>
+            <div class="flex flex-row">
+                <LightButton url="/projects" text="PROJECTS"></LightButton>
             </div>
 
         </div>
