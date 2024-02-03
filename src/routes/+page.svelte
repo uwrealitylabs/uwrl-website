@@ -3,7 +3,7 @@
     import LightButton from '$lib/LightButton.svelte';
 </script>
 
-<div class="m-8 flex flex-col ">
+<div class="m-8 flex flex-col space-y-10">
 
     <div class="flex flex-col space-y-20 pb-20">
         <div class="text-sm lg:text-lg">
@@ -44,15 +44,20 @@
         <div class="basis-1/6">
             About
         </div>
-        <div class="flex flex-col basis-5/6">
+        <div class="flex flex-col basis-5/6 ">
             <div class="">
                 <span class="font-normal text-5xl">Researching, experimenting, and building.</span>
                 <span class="font-normal text-5xl text-gray-500">We create real-life interfaces for the virtual world.</span>
             </div>
-            <div class="flex flex-row">
+            <div class="flex flex-row pt-10">
                 <LightButton url="/projects" text="PROJECTS"></LightButton>
             </div>
 
         </div>
+    </div>
+
+    <div>
+
+
     </div>
 </div>
