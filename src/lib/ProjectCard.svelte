@@ -1,5 +1,5 @@
-<script>
-    export let img, title, desc
+<script lang="ts">
+    export let img, title, desc: boolean
 
 </script>
 
