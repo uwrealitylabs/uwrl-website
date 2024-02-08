@@ -1,6 +1,7 @@
 <script>
     import ProjectCard from "$lib/ProjectCard.svelte";
     import LightButton from '$lib/LightButton.svelte';
+		import FlatDropDown from '$lib/FlatDropDown.svelte';
 </script>
 
 <div class="m-8 flex flex-col space-y-10">
@@ -56,8 +57,16 @@
         </div>
     </div>
 
-    <div>
-
+    <div class="flex flex-col">
+		<FlatDropDown>
+		  <div class="font-light text-xl">
+			Rotational Tracking: IMU-based, built with Arduino, centralized PCB design
+			<br>
+			Positional Tracking: Roomscale tracking with LEDs (PSMoveServiceEx), inside-out tracking with computer vision (VIO)
+			<br>
+			Display Systems Research: Lens technologies, varifocal optics with eye-tracking and natural defocus blur in real-time game engines
+		  </div>
+		</FlatDropDown>
 
     </div>
 </div>

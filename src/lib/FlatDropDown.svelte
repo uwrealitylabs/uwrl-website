@@ -1,15 +1,17 @@
 <script lang="ts">
-	export let title, content: string
-	export let initialState: boolean
+	export let title: string
+	export let isOpen: boolean
 </script>
 
 
-<div class="flex flex-col border-b">
-	<div>
+<a href="/" class="flex flex-col border-b" on:click={(event) => {event.preventDefault(); isOpen = !isOpen;}}>
+	<div class="text-3xl font-normal">
 	  {title}
 	</div>
 
-  	<div class={initialState}>
-	  {content}
+  	<div class={isOpen? "block" : "hidden"} >
+	  <slot>
+
+	  </slot>
 	</div>
-</div>
+</a>
