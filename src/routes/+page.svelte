@@ -2,6 +2,7 @@
     import ProjectCard from "$lib/ProjectCard.svelte";
     import LightButton from '$lib/LightButton.svelte';
 	import FlatDropDown from '$lib/FlatDropDown.svelte';
+	import { base } from '$app/paths';
 </script>
 
 <div class="p-8 flex flex-col space-y-10">
@@ -22,7 +23,7 @@
         </div>
         <div >
             <div class="flex flex-row">
-                <a href="/projects" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
+                <a href="{ base } + /projects" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
                     <div class="text-white group-hover:text-black">
                         Dive deeper
                     </div>

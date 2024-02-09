@@ -2,6 +2,7 @@
 
 import LightButton from '$lib/LightButton.svelte';
 import HoverableExternalLink from '$lib/HoverableExternalLink.svelte';
+import { base } from '$app/paths';
 </script>
 
 
@@ -29,16 +30,16 @@ import HoverableExternalLink from '$lib/HoverableExternalLink.svelte';
 
 
 			<div class="flex flex-col space-y-5 font-normal text-lg basis-1/2">
-				<a href="/" class="">
+				<a href="{ base } + /" class="">
 					Home
 				</a>
-				<a href="/" class="">
+				<a href="{ base } + /" class="">
 					Projects
 				</a>
-				<a href="/" class="">
+				<a href="{ base } + /" class="">
 					About
 				</a>
-				<a href="/" class="">
+				<a href="{ base } + /" class="">
 					Contact
 				</a>
 			</div>
