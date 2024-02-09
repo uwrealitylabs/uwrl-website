@@ -41,7 +41,7 @@
         <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" desc="Generating training data for ML-based real-time defocus blur." />
         <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" desc="Pupil tracking based on EyeTrackVR with ML & computer vision." />
     </div>
-    <div class="flex flex-row">
+    <div class="flex flex-row px-10">
         <div class="basis-1/6">
             About
         </div>
@@ -57,16 +57,30 @@
         </div>
     </div>
 
-    <div class="flex flex-col">
-		<FlatDropDown>
-		  <div class="font-light text-xl">
-			Rotational Tracking: IMU-based, built with Arduino, centralized PCB design
-			<br>
-			Positional Tracking: Roomscale tracking with LEDs (PSMoveServiceEx), inside-out tracking with computer vision (VIO)
-			<br>
-			Display Systems Research: Lens technologies, varifocal optics with eye-tracking and natural defocus blur in real-time game engines
-		  </div>
-		</FlatDropDown>
 
+
+    <div class="flex flex-col px-10 textgray-900">
+		<div class="py-10 font-light">
+			Project Topics
+		</div>
+		<FlatDropDown title="VR Hardware">
+			Rotational Tracking: IMU-based, built with Arduino, centralized PCB design
+			<br><br>
+			Positional Tracking: Roomscale tracking with LEDs (PSMoveServiceEx), inside-out tracking with computer vision (VIO)
+			<br><br>
+			Display Systems Research: Lens technologies, varifocal optics with eye-tracking and natural defocus blur in real-time game engines
+		</FlatDropDown>
+		<FlatDropDown title="AR Hardware">
+			Inspired by Project North Star: Side-projected display, optical combiners
+			<br><br>
+			zig on the RP2040, Intel RealSense T265, custom MCP4021 libraries
+			<br><br>
+			Ultraleap-based hand tracking
+		</FlatDropDown>
+		<FlatDropDown title="XR Software & Games">
+			Varifocal: A story-based VR game set in a post-apocalyptic city where the player navigates through different emotional segments using visors with unique shades.
+			<br><br>
+			The objective is to explore, solve puzzles, and free fragmented individuals stuck in time, gaining emotional fragments.
+		</FlatDropDown>
     </div>
 </div>
