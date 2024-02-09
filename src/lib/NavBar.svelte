@@ -14,13 +14,13 @@
             </a>
 
             <div class="flex justify-center space-x-3 items-center flex-grow font-normal">
-                <a href="{ base } + /projects" class="px-3 py-2 transition hover:-translate-y-1">
+                <a href="{ base }/projects" class="px-3 py-2 transition hover:-translate-y-1">
                     Projects
                 </a>
-                <a href="{ base } + /about" class="px-3 py-2 transition hover:-translate-y-1">
+                <a href="{ base }/about" class="px-3 py-2 transition hover:-translate-y-1">
                     About
                 </a>
-                <a href="{ base } + /contact" class="px-3 py-2 transition hover:-translate-y-1">
+                <a href="{ base }/contact" class="px-3 py-2 transition hover:-translate-y-1">
                     Contact
                 </a>
             </div>

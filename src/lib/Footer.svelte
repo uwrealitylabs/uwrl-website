@@ -30,16 +30,16 @@ import { base } from '$app/paths';
 
 
 			<div class="flex flex-col space-y-5 font-normal text-lg basis-1/2">
-				<a href="{ base } + /" class="">
+				<a href="{ base }/" class="">
 					Home
 				</a>
-				<a href="{ base } + /" class="">
+				<a href="{ base }/" class="">
 					Projects
 				</a>
-				<a href="{ base } + /" class="">
+				<a href="{ base }/" class="">
 					About
 				</a>
-				<a href="{ base } + /" class="">
+				<a href="{ base }/" class="">
 					Contact
 				</a>
 			</div>
