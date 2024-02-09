@@ -6,7 +6,7 @@
 </script>
 
 
-<a href="{ base } + /" class="flex flex-col border-b" on:click={(event) => {event.preventDefault(); isOpen = !isOpen;}}>
+<a href="{ base }/" class="flex flex-col border-b" on:click={(event) => {event.preventDefault(); isOpen = !isOpen;}}>
   	<div class="flex flex-row py-5">
 		<div class="text-3xl font-normal">
 			{title}

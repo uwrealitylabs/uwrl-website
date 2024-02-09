@@ -23,7 +23,7 @@
         </div>
         <div >
             <div class="flex flex-row">
-                <a href="{ base } + /projects" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
+                <a href="{ base }/projects" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
                     <div class="text-white group-hover:text-black">
                         Dive deeper
                     </div>
@@ -56,7 +56,7 @@
                 <span class="font-normal text-5xl lg:text-6xl text-gray-500">We create real-life interfaces for the virtual world.</span>
             </div>
             <div class="flex flex-row pt-10">
-                <LightButton url="/projects" >
+                <LightButton url="{ base }/projects" >
 					PROJECTS
 				</LightButton>
             </div>
@@ -101,7 +101,7 @@
 				<span class="font-normal text-5xl lg:text-6xl text-gray-500">And we build and research together.</span>
 			</div>
 			<div class="flex flex-row pt-10">
-				<LightButton url="/about">
+				<LightButton url="{ base }/about">
 					JOIN US
 				</LightButton>
 			</div>
