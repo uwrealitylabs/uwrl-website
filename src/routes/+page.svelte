@@ -4,7 +4,7 @@
 	import FlatDropDown from '$lib/FlatDropDown.svelte';
 </script>
 
-<div class="m-8 flex flex-col space-y-10">
+<div class="p-8 flex flex-col space-y-10">
 
 
     <div class="flex flex-col space-y-20 pb-20 lg:px-10">
@@ -55,7 +55,9 @@
                 <span class="font-normal text-5xl text-gray-500">We create real-life interfaces for the virtual world.</span>
             </div>
             <div class="flex flex-row pt-10">
-                <LightButton url="/projects" text="PROJECTS"></LightButton>
+                <LightButton url="/projects" >
+					PROJECTS
+				</LightButton>
             </div>
 
         </div>
@@ -98,7 +100,9 @@
 				<span class="font-normal text-5xl text-gray-500">And we build and research together.</span>
 			</div>
 			<div class="flex flex-row pt-10">
-				<LightButton url="/about" text="JOIN US"></LightButton>
+				<LightButton url="/about">
+					JOIN US
+				</LightButton>
 			</div>
 		</div>
 	</div>
