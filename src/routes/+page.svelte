@@ -8,7 +8,7 @@
 
 
     <div class="flex flex-col space-y-20 pb-20 lg:px-10">
-        <div class="text-sm lg:text-lg">
+        <div class="font-light lg:text-2xl">
             VR/AR/XR · Spatial Computing
         </div>
         <div class="ml-2">
@@ -46,13 +46,13 @@
 
 
     <div class="flex flex-row lg:px-10">
-        <div class="basis-1/6">
+        <div class="basis-1/6 font-light lg:text-2xl">
             About
         </div>
         <div class="flex flex-col basis-5/6 ">
             <div class="">
-                <span class="font-normal text-5xl">Researching, experimenting, and building.</span>
-                <span class="font-normal text-5xl text-gray-500">We create real-life interfaces for the virtual world.</span>
+                <span class="font-normal text-5xl lg:text-6xl">Researching, experimenting, and building.</span>
+                <span class="font-normal text-5xl lg:text-6xl text-gray-500">We create real-life interfaces for the virtual world.</span>
             </div>
             <div class="flex flex-row pt-10">
                 <LightButton url="/projects" >
@@ -66,7 +66,7 @@
 
 
     <div class="flex flex-col lg:px-10 textgray-900">
-		<div class="py-8 font-light">
+		<div class="py-8 font-light lg:text-2xl">
 			Project Topics
 		</div>
 		<FlatDropDown title="VR Hardware">
@@ -91,13 +91,13 @@
     </div>
 
 	<div class="flex flex-row lg:px-10">
-		<div class="basis-1/6">
+		<div class="basis-1/6  font-light lg:text-2xl">
 			About
 		</div>
 		<div class="flex flex-col basis-5/6 ">
 			<div class="">
-				<span class="font-normal text-5xl">We foster a community for tinkerers and enthusiasts.</span>
-				<span class="font-normal text-5xl text-gray-500">And we build and research together.</span>
+				<span class="font-normal text-5xl lg:text-6xl">We foster a community for tinkerers and enthusiasts.</span>
+				<span class="font-normal text-5xl lg:text-6xl text-gray-500">And we build and research together.</span>
 			</div>
 			<div class="flex flex-row pt-10">
 				<LightButton url="/about">
