@@ -1,17 +1,18 @@
 <script>
     import ProjectCard from "$lib/ProjectCard.svelte";
     import LightButton from '$lib/LightButton.svelte';
-		import FlatDropDown from '$lib/FlatDropDown.svelte';
+	import FlatDropDown from '$lib/FlatDropDown.svelte';
 </script>
 
 <div class="m-8 flex flex-col space-y-10">
 
-    <div class="flex flex-col space-y-20 pb-20">
+
+    <div class="flex flex-col space-y-20 pb-20 lg:px-10">
         <div class="text-sm lg:text-lg">
             VR/AR/XR · Spatial Computing
         </div>
         <div class="ml-2">
-            <h1 class="font-normal text-5xl lg:text-7xl">
+            <h1 class="font-normal text-4xl md:text-6xl lg:text-7xl">
                 <span >The University of Waterloo's </span>
                 <br >
                 <span class="text-gray-500">XR &amp; spatial computing</span>
@@ -35,13 +36,16 @@
         </div>
     </div>
 
-    <div class="flex flex-col space-y-2">
+
+    <div class="flex flex-col space-y-2 lg:px-10">
         <ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" desc="The modular, open-source VR headset for research and experimentation." />
         <ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" desc="A fully self-contained AR device based on Ultraleap's Project North Star." />
         <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" desc="Generating training data for ML-based real-time defocus blur." />
         <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" desc="Pupil tracking based on EyeTrackVR with ML & computer vision." />
     </div>
-    <div class="flex flex-row px-10">
+
+
+    <div class="flex flex-row lg:px-10">
         <div class="basis-1/6">
             About
         </div>
@@ -59,8 +63,8 @@
 
 
 
-    <div class="flex flex-col px-10 textgray-900">
-		<div class="py-10 font-light">
+    <div class="flex flex-col lg:px-10 textgray-900">
+		<div class="py-8 font-light">
 			Project Topics
 		</div>
 		<FlatDropDown title="VR Hardware">
@@ -75,7 +79,7 @@
 			<br><br>
 			zig on the RP2040, Intel RealSense T265, custom MCP4021 libraries
 			<br><br>
-			Ultraleap-based hand tracking
+			Ultraleap-based hand trackingg
 		</FlatDropDown>
 		<FlatDropDown title="XR Software & Games">
 			Varifocal: A story-based VR game set in a post-apocalyptic city where the player navigates through different emotional segments using visors with unique shades.
@@ -83,4 +87,21 @@
 			The objective is to explore, solve puzzles, and free fragmented individuals stuck in time, gaining emotional fragments.
 		</FlatDropDown>
     </div>
+
+	<div class="flex flex-row lg:px-10">
+		<div class="basis-1/6">
+			About
+		</div>
+		<div class="flex flex-col basis-5/6 ">
+			<div class="">
+				<span class="font-normal text-5xl">We foster a community for tinkerers and enthusiasts.</span>
+				<span class="font-normal text-5xl text-gray-500">And we build and research together.</span>
+			</div>
+			<div class="flex flex-row pt-10">
+				<LightButton url="/about" text="JOIN US"></LightButton>
+			</div>
+		</div>
+	</div>
+
+
 </div>
