@@ -39,10 +39,18 @@
 
 
     <div class="flex flex-col space-y-2 lg:px-10">
-        <ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" desc="The modular, open-source VR headset for research and experimentation." />
-        <ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" desc="A fully self-contained AR device based on Ultraleap's Project North Star." />
-        <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" desc="Generating training data for ML-based real-time defocus blur." />
-        <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" desc="Pupil tracking based on EyeTrackVR with ML & computer vision." />
+		<ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch">
+			The modular, open-source VR headset for research and experimentation.
+		</ProjectCard>
+		<ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" >
+			A fully self-contained AR device based on Ultraleap's Project North Star.
+		</ProjectCard>
+        <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" >
+			Generating training data for ML-based real-time defocus blur.
+		</ProjectCard>
+        <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" >
+			Pupil tracking based on EyeTrackVR with ML & computer vision.
+		</ProjectCard>
     </div>
 
 
@@ -56,7 +64,7 @@
                 <span class="font-normal text-5xl lg:text-6xl text-gray-500">We create real-life interfaces for the virtual world.</span>
             </div>
             <div class="flex flex-row pt-10">
-                <LightButton url="{ base }/projects" >
+                <LightButton url="/projects" >
 					PROJECTS
 				</LightButton>
             </div>
@@ -101,7 +109,7 @@
 				<span class="font-normal text-5xl lg:text-6xl text-gray-500">And we build and research together.</span>
 			</div>
 			<div class="flex flex-row pt-10">
-				<LightButton url="{ base }/about">
+				<LightButton url="/about">
 					JOIN US
 				</LightButton>
 			</div>

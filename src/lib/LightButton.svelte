@@ -1,10 +1,12 @@
 <script lang="ts">
+	import { base } from '$app/paths';
+
 	export let url: string;
 
 </script>
 
 
-<a href="{ url }" class="w-auto rounded-full bg-gray-200 px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-gray-400 ring-0">
+<a href="{ base }{ url }" class="w-auto rounded-full bg-gray-200 px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-gray-400 ring-0">
 	<div class="text-black">
 		<slot></slot>
 	</div>

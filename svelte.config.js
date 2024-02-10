@@ -8,6 +8,16 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
+		prerender: {
+			handleHttpError: ({ path, referrer, message }) => {
+				// ignore deliberate link to shiny 404 page
+				// if (path === '/not-found' && referrer === '/blog/how-we-built-our-404-page') {
+				// 	return;
+				// }
+				console.table([path, referrer, message]);
+				// otherwise fail the build
+			}
+		},
 		// hydrate the <div id="svelte"> element in src/app.html
 		adapter: adapter({
 			// default options are shown

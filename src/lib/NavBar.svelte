@@ -9,7 +9,7 @@
     <div class="flex flex-row items-center justify-center  m-8">
 
         <div class="flex flex-row w-full">
-            <a href={base} class="font-extrabold hover:underline flex items-center">
+            <a href="{base}/" class="font-extrabold hover:underline flex items-center">
                 uwrl
             </a>
 
