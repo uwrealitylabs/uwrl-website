@@ -6,7 +6,7 @@
 </script>
 
 
-<a href="{ base }{ url? '/' : url }" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
+<a href="{ base }{ url }" class="w-auto rounded-full bg-black px-6 py-4 flex flex-row space-x-3 group hover:bg-white hover:ring-2 ring-black ring-0">
 	<div class="text-white group-hover:text-black">
 		<slot></slot>
 	</div>
