@@ -2,14 +2,12 @@
     import ProjectCard from "$lib/ProjectCard.svelte";
     import LightButton from '$lib/LightButton.svelte';
 	import FlatDropDown from '$lib/FlatDropDown.svelte';
-	import { base } from '$app/paths';
-		import DarkButton from '$lib/DarkButton.svelte';
+	import DarkButton from '$lib/DarkButton.svelte';
 </script>
 
-<div class="p-8 flex flex-col space-y-10">
+<div class="p-4 sm:p-8 lg:p-20 flex flex-col space-y-4 sm:space-y-8 lg:space-y-32">
 
-
-    <div class="flex flex-col space-y-20 pb-20 lg:px-10">
+    <div class="flex flex-col space-y-20 ">
         <div class="font-light lg:text-2xl">
             VR/AR/XR · Spatial Computing
         </div>
@@ -32,7 +30,7 @@
     </div>
 
 
-    <div class="flex flex-col space-y-2 lg:px-10">
+    <div class="flex flex-col space-y-2 ">
 		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch">
 			The modular, open-source VR headset for research and experimentation.
 		</ProjectCard>
@@ -48,7 +46,7 @@
     </div>
 
 
-    <div class="flex flex-row lg:px-10">
+    <div class="flex flex-row">
         <div class="basis-1/6 font-light lg:text-2xl">
             About
         </div>
@@ -68,7 +66,7 @@
 
 
 
-    <div class="flex flex-col lg:px-10 textgray-900">
+    <div class="flex flex-col textgray-900">
 		<div class="py-8 font-light lg:text-2xl">
 			Project Topics
 		</div>
@@ -93,7 +91,7 @@
 		</FlatDropDown>
     </div>
 
-	<div class="flex flex-row lg:px-10">
+	<div class="flex flex-row">
 		<div class="basis-1/6  font-light lg:text-2xl">
 			About
 		</div>

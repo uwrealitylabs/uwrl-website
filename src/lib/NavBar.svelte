@@ -6,7 +6,7 @@
 
 
 <div class="dark:bg-gray-800">
-    <div class="flex flex-row items-center justify-center  m-8">
+    <div class="flex flex-row items-center justify-center m-8 lg:text-xl">
 
         <div class="flex flex-row w-full">
             <a href="{base}/" class="font-extrabold hover:underline flex items-center">
