@@ -1,11 +1,5 @@
-about
-about
-aboutabout
-about
-about
-about
-about
-about
-aboutabout
 
 
+<div class="p-8 flex flex-col space-y-10">
+
+</div>
