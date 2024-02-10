@@ -11,12 +11,14 @@
 	import Footer from '$lib/Footer.svelte';
 	import {DarkMode} from "$lib/States";
 	import { base } from '$app/paths';
+
+	let background = 'url(' + base + '/sketchTile.svg)';
 </script>
 
 
 <div class:dark={$DarkMode}>
     <NavBar></NavBar>
-	<div class="bg-repeat" style="background-image: url({base}/sketchTile.svg);">
+	<div class="bg-repeat" style="background-image: url({background});">
 		<slot></slot>
 	</div>
 	<Footer></Footer>
