@@ -19,7 +19,7 @@ import { base } from '$app/paths';
 				Let's build the future, one reality at a time.
 			</div>
 			<div class="flex flex-row">
-				<LightButton >
+				<LightButton url="/contact">
 					JOIN US
 				</LightButton>
 			</div>
@@ -33,13 +33,13 @@ import { base } from '$app/paths';
 				<a href="{ base }/" class="">
 					Home
 				</a>
-				<a href="{ base }/" class="">
+				<a href="{ base }/projects" class="">
 					Projects
 				</a>
-				<a href="{ base }/" class="">
+				<a href="{ base }/about" class="">
 					About
 				</a>
-				<a href="{ base }/" class="">
+				<a href="{ base }/contact" class="">
 					Contact
 				</a>
 			</div>

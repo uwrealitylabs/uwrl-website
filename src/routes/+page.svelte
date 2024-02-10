@@ -39,16 +39,16 @@
 
 
     <div class="flex flex-col space-y-2 lg:px-10">
-		<ProjectCard class="" img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch">
+		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch">
 			The modular, open-source VR headset for research and experimentation.
 		</ProjectCard>
-		<ProjectCard class="" img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" >
+		<ProjectCard img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" >
 			A fully self-contained AR device based on Ultraleap's Project North Star.
 		</ProjectCard>
-        <ProjectCard class="" img="/DeepFocus.webp" title="DeepFocus (Redux)" >
+        <ProjectCard img="/DeepFocus.webp" title="DeepFocus (Redux)" >
 			Generating training data for ML-based real-time defocus blur.
 		</ProjectCard>
-        <ProjectCard class="" img="/EyeTrackVR.webp" title="Eye Tracking" >
+        <ProjectCard img="/EyeTrackVR.webp" title="Eye Tracking"  >
 			Pupil tracking based on EyeTrackVR with ML & computer vision.
 		</ProjectCard>
     </div>
@@ -78,21 +78,21 @@
 		<div class="py-8 font-light lg:text-2xl">
 			Project Topics
 		</div>
-		<FlatDropDown title="VR Hardware">
+		<FlatDropDown title="VR Hardware" isOpen=false>
 			Rotational Tracking: IMU-based, built with Arduino, centralized PCB design
 			<br><br>
 			Positional Tracking: Roomscale tracking with LEDs (PSMoveServiceEx), inside-out tracking with computer vision (VIO)
 			<br><br>
 			Display Systems Research: Lens technologies, varifocal optics with eye-tracking and natural defocus blur in real-time game engines
 		</FlatDropDown>
-		<FlatDropDown title="AR Hardware">
+		<FlatDropDown title="AR Hardware" isOpen=false>
 			Inspired by Project North Star: Side-projected display, optical combiners
 			<br><br>
 			zig on the RP2040, Intel RealSense T265, custom MCP4021 libraries
 			<br><br>
 			Ultraleap-based hand trackingg
 		</FlatDropDown>
-		<FlatDropDown title="XR Software & Games">
+		<FlatDropDown title="XR Software & Games" isOpen=false>
 			Varifocal: A story-based VR game set in a post-apocalyptic city where the player navigates through different emotional segments using visors with unique shades.
 			<br><br>
 			The objective is to explore, solve puzzles, and free fragmented individuals stuck in time, gaining emotional fragments.
