@@ -78,21 +78,21 @@
 		<div class="py-8 font-light lg:text-2xl">
 			Project Topics
 		</div>
-		<FlatDropDown title="VR Hardware" isOpen=false>
+		<FlatDropDown title="VR Hardware" isOpen={false}>
 			Rotational Tracking: IMU-based, built with Arduino, centralized PCB design
 			<br><br>
 			Positional Tracking: Roomscale tracking with LEDs (PSMoveServiceEx), inside-out tracking with computer vision (VIO)
 			<br><br>
 			Display Systems Research: Lens technologies, varifocal optics with eye-tracking and natural defocus blur in real-time game engines
 		</FlatDropDown>
-		<FlatDropDown title="AR Hardware" isOpen=false>
+		<FlatDropDown title="AR Hardware" isOpen={false}>
 			Inspired by Project North Star: Side-projected display, optical combiners
 			<br><br>
 			zig on the RP2040, Intel RealSense T265, custom MCP4021 libraries
 			<br><br>
 			Ultraleap-based hand trackingg
 		</FlatDropDown>
-		<FlatDropDown title="XR Software & Games" isOpen=false>
+		<FlatDropDown title="XR Software & Games" isOpen={false}>
 			Varifocal: A story-based VR game set in a post-apocalyptic city where the player navigates through different emotional segments using visors with unique shades.
 			<br><br>
 			The objective is to explore, solve puzzles, and free fragmented individuals stuck in time, gaining emotional fragments.
