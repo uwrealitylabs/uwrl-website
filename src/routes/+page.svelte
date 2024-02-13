@@ -30,16 +30,19 @@
     </div>
 
 
-    <div class="flex flex-col space-y-2 ">
+    <div class="flex flex-col space-y-6 ">
 		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch">
 			The modular, open-source VR headset for research and experimentation.
 		</ProjectCard>
-		<ProjectCard img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" >
-			A fully self-contained AR device based on Ultraleap's Project North Star.
-		</ProjectCard>
-        <ProjectCard img="/DeepFocus.webp" title="DeepFocus (Redux)" >
-			Generating training data for ML-based real-time defocus blur.
-		</ProjectCard>
+		<div class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-2 h-[200]">
+			<ProjectCard img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" >
+				A fully self-contained AR device based on Ultraleap's Project North Star.
+			</ProjectCard>
+			<ProjectCard img="/DeepFocus.webp" title="DeepFocus (Redux)" >
+				Generating training data for ML-based real-time defocus blur.
+			</ProjectCard>
+		</div>
+
         <ProjectCard img="/EyeTrackVR.webp" title="Eye Tracking"  >
 			Pupil tracking based on EyeTrackVR with ML & computer vision.
 		</ProjectCard>

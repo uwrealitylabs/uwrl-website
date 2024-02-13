@@ -6,7 +6,7 @@
 
 </script>
 
-<div class="flex flex-col group relative space pb-5">
+<div class="flex flex-col group relative space">
     <div class="aspect-h-8 aspect-w-16 relative">
         <img src="{ base }{ img? img : '/' }" alt="" class="w-full object-cover rounded-3xl group-hover:scale-[0.99] duration-500	">
 
@@ -15,6 +15,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
             </svg>
         </div>
+
     </div>
     <div class="pt-5">
         <div class="text-2xl font-normal">
