@@ -11,6 +11,7 @@ import rehypePicture from 'rehype-picture';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkStringify from 'remark-stringify';
 import { matter } from 'vfile-matter';
+import { VFile } from 'vfile';
 
 
 export type PageOption = "blogs" | "projects";
@@ -59,8 +60,10 @@ export const readPage = async (fileName: string, pageType: PageOption): Promise<
 		.process(page)
 		.then((file) => file.data.matter) as PageMeta;
 
-	console.log(data)
-	data.body = page
+	const pageVFile = new VFile(page)
+	matter(pageVFile, {strip: true})
+	data.body = String(pageVFile)
+	console.log("test" + data.body)
 	data.unixDate = dayjs(data.date).unix();
 	data.unixLastMod = dayjs(data.lastMod).unix();
 
