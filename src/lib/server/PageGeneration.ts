@@ -12,7 +12,9 @@ import remarkFrontmatter from 'remark-frontmatter';
 import remarkStringify from 'remark-stringify';
 import { matter } from 'vfile-matter';
 
-export interface BlogMeta {
+
+export type PageOption = "blog" | "project";
+export interface PageMeta {
 	title: string;
 	date: string;
 	lastMod: string;
@@ -26,7 +28,7 @@ export interface BlogMeta {
 	license?: string;
 }
 
-export const processMarkdown = async (rawJSON: BlogMeta) => {
+export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
 	const tree = unified()
 		.use(remarkParse)
 		.use(remarkGfm)
@@ -46,20 +48,21 @@ export const processMarkdown = async (rawJSON: BlogMeta) => {
 }
 
 
-export const readBlog = async (fileName: string): Promise<BlogMeta> => {
-	const blog = await fs.readFile(`static/blog/${fileName}.md`, 'utf-8');
+export const readPage = async (fileName: string, pageType: PageOption): Promise<PageMeta> => {
+	const page = await fs.readFile(`static/${pageType.toString()}/${fileName}.md`, 'utf-8');
 
 	const data = await unified()
 		.use(remarkParse)
 		.use(remarkStringify)
 		.use(remarkFrontmatter(['yaml', 'toml']))
 		.use(() => (tree, vfile) => matter(vfile))
-		.process(blog)
-		.then((file) => file.data.matter) as BlogMeta;
+		.process(page)
+		.then((file) => file.data.matter) as PageMeta;
 
 	console.log(data)
-	data.body = blog
+	data.body = page
 	data.unixDate = dayjs(data.date).unix();
 	data.unixLastMod = dayjs(data.lastMod).unix();
+
 	return data;
 };
