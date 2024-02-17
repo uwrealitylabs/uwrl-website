@@ -4,9 +4,9 @@ import type { PageServerLoad } from './$types';
 
 export const load: PageServerLoad = async ({ params }) => {
 
-	console.log(params.project);
+	console.log(params.blog);
 
-	let rawJSON = await readPage(params.project, 'projects');
+	let rawJSON = await readPage(params.blog, 'blogs');
 	rawJSON = await processMarkdown(rawJSON);
 
 	return rawJSON

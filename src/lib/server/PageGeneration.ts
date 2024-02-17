@@ -13,7 +13,7 @@ import remarkStringify from 'remark-stringify';
 import { matter } from 'vfile-matter';
 
 
-export type PageOption = "blog" | "project";
+export type PageOption = "blogs" | "projects";
 export interface PageMeta {
 	title: string;
 	date: string;
@@ -54,7 +54,7 @@ export const readPage = async (fileName: string, pageType: PageOption): Promise<
 	const data = await unified()
 		.use(remarkParse)
 		.use(remarkStringify)
-		.use(remarkFrontmatter(['yaml', 'toml']))
+		.use(remarkFrontmatter)
 		.use(() => (tree, vfile) => matter(vfile))
 		.process(page)
 		.then((file) => file.data.matter) as PageMeta;
