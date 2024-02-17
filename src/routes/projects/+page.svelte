@@ -48,7 +48,7 @@ import LightButton from '$lib/LightButton.svelte';
 		<div class="flex flex-row pt-10">
 			<LightButton url="/projects" >
 				CONTACT US
-			</LightButton>
+		 	</LightButton>
 		</div>
 
 	</div>
