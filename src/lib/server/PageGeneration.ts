@@ -40,10 +40,10 @@ export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
 		.use(rehypeStringify)
 		.use(rehypeHighlight);
 
+
 	return {
 		...rawJSON,
-		body: await processor.run(tree)
-			.then((processor) => processor.toString())
+		body: processor.stringify( await processor.run(tree))
 	};
 }
 
