@@ -1,12 +1,17 @@
 <script lang="ts">
+	export let link: string;
+	export let img: string;
+	export let title: string;
+
     import { base } from '$app/paths';
 
-	export let img, title, href: string
+	import { onMount } from 'svelte';
+
 
 
 </script>
 
-<a href="{ base }{ href? href : '/' }" class="flex flex-col group relative space">
+<a href="{ base }/{ link? `projects/${link}` : '/' }" class="flex flex-col group relative space">
     <div class="aspect-h-8 aspect-w-16 relative">
         <img src="{ base }{ img? img : '/' }" alt="" class="w-full object-cover rounded-3xl group-hover:scale-[0.99] duration-500">
 		<!--height is in the arrow direction-->

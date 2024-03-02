@@ -5,14 +5,16 @@ import { unified } from 'unified';
 import remarkGfm from 'remark-gfm';
 import remarkParse from 'remark-parse';
 import rehypeStringify from 'rehype-stringify';
-import remark2rehype from 'remark-rehype';
+import remarkRehype from 'remark-rehype'
 import rehypeHighlight from 'rehype-highlight';
 import rehypePicture from 'rehype-picture';
 import remarkFrontmatter from 'remark-frontmatter';
 import remarkStringify from 'remark-stringify';
 import { matter } from 'vfile-matter';
 import { VFile } from 'vfile';
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import rehypeWrap from 'rehype-wrap';
 
 export type PageOption = "blogs" | "projects";
 export interface PageMeta {
@@ -36,10 +38,11 @@ export const processMarkdown = async (rawJSON: PageMeta): Promise<PageMeta> => {
 		.parse(rawJSON.body);
 
 	const processor =  unified()
-		.use(remark2rehype)
+		.use(remarkRehype)
 		.use(rehypePicture)
 		.use(rehypeStringify)
-		.use(rehypeHighlight);
+		.use(rehypeHighlight)
+		.use(rehypeWrap, {selector: 'img', wrapper: 'div.round.p-4.bg-stone-500'})
 
 
 	return {
@@ -64,6 +67,7 @@ export const readPage = async (fileName: string, pageType: PageOption): Promise<
 	matter(pageVFile, {strip: true})
 	data.body = String(pageVFile)
 	console.log("test" + data.body)
+
 	data.unixDate = dayjs(data.date).unix();
 	data.unixLastMod = dayjs(data.lastMod).unix();
 

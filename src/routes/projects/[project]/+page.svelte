@@ -3,7 +3,6 @@
 
 	export let data: PageMeta
 	let blog = data
-	console.log(data.body)
 </script>
 <div class="w-full ">
 	<div id="blogCard" class="bg-gray-50 dark:bg-gray-700 rounded-xl p-8 w-full">

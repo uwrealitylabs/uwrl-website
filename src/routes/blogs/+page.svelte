@@ -1,6 +1,7 @@
 <script>
 import ProjectCard from '$lib/ProjectCard.svelte';
 import LightButton from '$lib/LightButton.svelte';
+import { base } from '$app/paths';
 </script>
 
 
@@ -22,18 +23,9 @@ import LightButton from '$lib/LightButton.svelte';
 
 
 	<div class="flex flex-col lg:flex-none space-y-6 sm:space-y-0 sm:gap-4 sm:grid sm:grid-cols-2 sm:grid-flow-row ">
-		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" link="reality-from-scratch">
-			The modular, open-source VR headset for research and experimentation.
-		</ProjectCard>
-		<ProjectCard img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" link="project-north-star">
-			A fully self-contained AR device based on Ultraleap's Project North Star.
-		</ProjectCard>
-		<ProjectCard img="/DeepFocus.webp" title="DeepFocus (Redux)" link="deep-focus">
-			Generating training data for ML-based real-time defocus blur.
-		</ProjectCard>
-		<ProjectCard img="/EyeTrackVR.webp" title="Eye Tracking" link="eye-track-vr" >
-			Pupil tracking based on EyeTrackVR with ML & computer vision.
-		</ProjectCard>
+		<a href="{base}/blogs/about">
+			test blog path
+		</a>
 	</div>
 
 

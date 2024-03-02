@@ -20,6 +20,9 @@
                 <a href="{ base }/about" class="px-3 py-2 transition hover:-translate-y-1">
                     About
                 </a>
+				<a href="{ base }/blogs" class="px-3 py-2 transition hover:-translate-y-1">
+					Blog
+				</a>
                 <a href="{ base }/contact" class="px-3 py-2 transition hover:-translate-y-1">
                     Contact
                 </a>
