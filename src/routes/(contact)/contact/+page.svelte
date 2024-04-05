@@ -2,7 +2,6 @@
 
 	import LightButton from '$lib/LightButton.svelte';
 	import HoverableExternalLink from '$lib/HoverableExternalLink.svelte';
-	import { base } from '$app/paths';
 </script>
 
 

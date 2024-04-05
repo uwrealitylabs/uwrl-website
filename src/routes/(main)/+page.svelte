@@ -70,7 +70,7 @@
 
 
 
-    <div class="flex flex-col textgray-900">
+    <div class="flex flex-col text-gray-900">
 		<div class="py-8 font-light lg:text-2xl">
 			Project Topics
 		</div>

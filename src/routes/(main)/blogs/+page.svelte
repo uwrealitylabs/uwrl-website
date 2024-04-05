@@ -1,5 +1,4 @@
 <script>
-import ProjectCard from '$lib/ProjectCard.svelte';
 import LightButton from '$lib/LightButton.svelte';
 import { base } from '$app/paths';
 </script>
