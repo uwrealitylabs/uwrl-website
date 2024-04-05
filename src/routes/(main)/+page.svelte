@@ -34,7 +34,7 @@
 		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" link="reality-from-scratch">
 			The modular, open-source VR headset for research and experimentation.
 		</ProjectCard>
-		<div class="flex flex-col lg:flex-row space-y-2 lg:space-y-0 lg:space-x-2 h-[200]">
+		<div class="flex flex-col lg:flex-none lg:grid lg:grid-cols-2 space-y-2 lg:space-y-0 lg:space-x-2 h-[200]">
 			<ProjectCard img="/NorthStarHeadset.jpg" title="Project Northstar-DIY" link="project-north-star">
 				A fully self-contained AR device based on Ultraleap's Project North Star.
 			</ProjectCard>

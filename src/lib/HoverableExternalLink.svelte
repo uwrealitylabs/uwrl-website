@@ -3,7 +3,7 @@
 </script>
 
 <a href={url} class="font-normal text-lg flex flex-row group">
-	<div class="text-white group-hover:text-gray-300">
+	<div class="group-hover:text-gray-300">
 		<slot></slot>
 	</div>
 	<svg class="w-8 h-8 stroke-white stroke-1 block group-hover:hidden ml-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" >

@@ -12,7 +12,7 @@
 </script>
 
 <a href="{ base }/{ link? `projects/${link}` : '/' }" class="flex flex-col group relative space">
-    <div class="aspect-h-8 aspect-w-16 relative">
+    <div class="aspect-h-8 aspect-w-16 lg:aspect-h-7 relative">
         <img src="{ base }{ img? img : '/' }" alt="" class="w-full object-cover rounded-3xl group-hover:scale-[0.99] duration-500">
 		<!--height is in the arrow direction-->
         <div class="transition rounded-full w-10 h-5 md:w-16 md:h-6 absolute left-4 bottom-6 md:left-8 md:bottom-10 top-auto bg-gray-300 justify-center items-center flex p-3 md:p-5 -rotate-45 group-hover:rotate-0 group-hover:h-10 md:group-hover:h-16 group-hover:-translate-y-3 duration-500">
