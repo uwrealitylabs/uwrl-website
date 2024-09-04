@@ -58,6 +58,9 @@ import { base } from '$app/paths';
 				<HoverableExternalLink url="https://www.instagram.com/uwrealitylabs/">
 					Instagram
 				</HoverableExternalLink>
+				<HoverableExternalLink url="{ base }/links">
+					Quick Links
+				</HoverableExternalLink>
 			</div>
 
 

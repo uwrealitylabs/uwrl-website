@@ -29,7 +29,6 @@
         </div>
     </div>
 
-
     <div class="flex flex-col space-y-6 ">
 		<ProjectCard img="/RealityFromScratchHeadset.jpg" title="Reality From Scratch" link="reality-from-scratch">
 			The modular, open-source VR headset for research and experimentation.
@@ -111,6 +110,4 @@
 			</div>
 		</div>
 	</div>
-
-
 </div>

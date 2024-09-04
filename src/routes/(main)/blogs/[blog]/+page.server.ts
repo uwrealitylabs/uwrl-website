@@ -10,4 +10,4 @@ export const load: PageServerLoad = async ({ params }) => {
 	rawJSON = await processMarkdown(rawJSON);
 
 	return rawJSON
-};
+}
