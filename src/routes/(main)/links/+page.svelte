@@ -10,7 +10,7 @@
 		{ title: "Apply to Our Team", url: "/apply", category: "apply" },
 		{ title: "Projects", url: "/projects", category: "main" },
 		{ title: "About Us", url: "/about", category: "main" },
-		{ title: "Join Discord", url: "https://discord.gg/your-discord-invite", category: "social" },
+		{ title: "Join Discord", url: "https://discord.gg/6yACASnqMj", category: "social" },
 		{ title: "Reality From Scratch", url: "/projects/reality-from-scratch", description: "Modular, open-source VR headset", category: "project" },
 		{ title: "Project Northstar-DIY", url: "/projects/project-north-star", description: "PC-powered AR device", category: "project" },
 		{ title: "DeepFocus (Redux)", url: "/projects/deep-focus", description: "ML-based real-time defocus blur", category: "project" },
