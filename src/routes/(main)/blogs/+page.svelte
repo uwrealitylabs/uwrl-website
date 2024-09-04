@@ -23,7 +23,7 @@ import { base } from '$app/paths';
 
 	<div class="flex flex-col lg:flex-none space-y-6 sm:space-y-0 sm:gap-4 sm:grid sm:grid-cols-2 sm:grid-flow-row ">
 		<a href="{base}/blogs/about">
-			test blog path
+			No blogs yet.
 		</a>
 	</div>
 
