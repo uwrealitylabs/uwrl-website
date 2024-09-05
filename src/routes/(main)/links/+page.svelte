@@ -7,7 +7,7 @@
 	}
 
 	const links: Link[] = [
-		{ title: "Apply to Our Team", url: "/apply", category: "apply" },
+		{ title: "Apply to Our Team", url: "https://forms.gle/vqjjqv8CWBefMsC97", category: "apply" },
 		{ title: "Projects", url: "/projects", category: "main" },
 		{ title: "About Us", url: "/about", category: "main" },
 		{ title: "Join Discord", url: "https://discord.gg/6yACASnqMj", category: "social" },
